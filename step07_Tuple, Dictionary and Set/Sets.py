@@ -47,10 +47,13 @@ set_a = {1, 2, 3}
 set_b = {3, 4, 5}
 
 # Union of sets
+print(set_a.union(set_b))
 union_set = set_a | set_b  # {1, 2, 3, 4, 5}
 
 # Intersection of sets
+print(set_a.intersection(set_b))
 intersection_set = set_a & set_b  # {3}
 
 # Difference of sets
+print(set_a.difference(set_b))
 difference_set = set_a - set_b  # {1, 2}
