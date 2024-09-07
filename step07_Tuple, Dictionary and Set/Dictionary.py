@@ -1,5 +1,5 @@
-#
-# ? A dictionary is an unordered, mutable collection of key-value pairs.
+    #
+# ? A dictionary is an ordered, mutable collection of key-value pairs.
 my_dict = {"name": "Alice", "age": 30, "city": "New York"}
 print(my_dict)
 # Output: {'name': 'Alice', 'age': 30, 'city': 'New York'}
